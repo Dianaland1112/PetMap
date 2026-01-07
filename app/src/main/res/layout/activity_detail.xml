@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textAlignment="center">
+
+    <Button
+        android:id="@+id/btnYes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:background="@drawable/bg_search_text"
+        android:text="예"
+        android:textColor="#0B0B0B"
+        app:backgroundTint="@null"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.244"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvText"
+        app:layout_constraintVertical_bias="0.061" />
+
+    <Button
+        android:id="@+id/btnNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="68dp"
+        android:background="@drawable/bg_search_text"
+        android:text="아니오"
+        android:textAlignment="center"
+        android:textColor="#0D0D0D"
+        android:textColorLink="#050505"
+        app:backgroundTint="@null"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.905"
+        app:layout_constraintStart_toEndOf="@+id/btnYes"
+        app:layout_constraintTop_toBottomOf="@+id/tvText"
+        app:layout_constraintVertical_bias="0.136" />
+
+    <EditText
+        android:id="@+id/tvText"
+        android:layout_width="287dp"
+        android:layout_height="40dp"
+        android:background="@drawable/bg_search_text"
+        android:ems="10"
+        android:inputType="text"
+        android:text="즐겨찾기에 추가하시겠습니까?"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.136" />
+</androidx.constraintlayout.widget.ConstraintLayout>

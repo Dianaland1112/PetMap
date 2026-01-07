@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/dog"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/searchText"
+        android:layout_width="257dp"
+        android:layout_height="42dp"
+        android:background="@drawable/bg_search_text"
+        android:ems="10"
+        android:hint="주변 동물병원 검색"
+        android:inputType="text"
+        android:textColor="@android:color/black"
+        android:textColorHint="#999999"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.35"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.104" />
+
+    <Button
+        android:id="@+id/searchBtn"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="검색"
+        android:drawableTop="@drawable/ic_search"
+        android:drawableTint="#A5D6A7"
+        android:elevation="0dp"
+        android:stateListAnimator="@null"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.093"
+        app:layout_constraintStart_toEndOf="@id/searchText"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.104" />
+
+    <Button
+        android:id="@+id/btnBookmark"
+        android:layout_width="139dp"
+        android:layout_height="40dp"
+        android:background="@drawable/bg_search_text"
+        android:text="즐겨찾기 목록"
+        android:textColor="#0B0B0B"
+        app:backgroundTint="@null"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.827"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/searchText"
+        app:layout_constraintVertical_bias="0.076" />
+
+    <Button
+        android:id="@+id/btnDiary"
+        android:layout_width="139dp"
+        android:layout_height="40dp"
+        android:background="@drawable/bg_search_text"
+        android:text="일지 작성하기"
+        android:textColor="#0B0B0B"
+        app:backgroundTint="@null"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.198"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/searchText"
+        app:layout_constraintVertical_bias="0.074" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="306dp"
+        android:layout_height="351dp"
+        android:rotation="90"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.634"
+        app:srcCompat="@drawable/jjong" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
