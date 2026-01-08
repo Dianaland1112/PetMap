@@ -1,5 +1,7 @@
 # PetMap
 근처에 있는 동물병원을 찾고 반려동물의 상태를 기록할 수 있는 애플리케이션 
+- Lang: Kotlin
+- Tool: Android Studio
 
 # Manual
 <img width="1422" height="792" alt="image" src="https://github.com/user-attachments/assets/8016c5d4-657b-4574-8ec7-7aebd2b5a757" />
