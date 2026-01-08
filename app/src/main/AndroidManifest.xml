@@ -22,7 +22,7 @@
         android:theme="@style/Theme.PetMap">
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyD71GvWQhR9srb8YLM3_wqMvlpnf1FEFwo" />
+            android:value="YOUR_KEY" />
         <provider
             android:name="androidx.core.content.FileProvider"
             android:authorities="ddwu.com.mobile.petmap.fileprovider"
